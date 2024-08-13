@@ -1,0 +1,20 @@
+.slide-container {
+  width:fit-content;
+  margin: auto;
+  margin-top: 100px;
+}
+
+.slide-container input {
+  display: grid;
+  padding: 10px;
+}
+
+
+.shape-container {
+  
+  width:fit-content;
+  margin: auto;
+  margin-top: 100px;
+  border: 3px solid black;
+  
+}
