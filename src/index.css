@@ -1,20 +1,46 @@
+body {
+  background-color: antiquewhite;
+}
+
+.flex-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
 .slide-container {
   width:fit-content;
-  margin: auto;
+  float: right;
   margin-top: 100px;
 }
 
+
+
 .slide-container input {
   display: grid;
-  padding: 10px;
+  margin-top: 30px;
+}
+
+
+.slide-container select {
+  margin-top: 30px;
+  border-style: none;
+  width: 100%;
+}
+
+input[type=text] {
+  width: 30px;
+  margin-top: 20px;
+  padding: 7px;
+  font-size: medium;
 }
 
 
 .shape-container {
-  
   width:fit-content;
-  margin: auto;
-  margin-top: 100px;
-  border: 3px solid black;
+  float: left;
+  background-color: white;
+  border: 1px solid saddlebrown;
+  margin: 30px;
   
 }
